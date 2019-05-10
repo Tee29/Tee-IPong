@@ -1,6 +1,9 @@
 body {
   background-color: hsl(218, 28%, 13%);
   color: white;
+  font-family: "Open Sans", sans-serif;
+  weights: 400, 700;
+  font-size: 14px;
 }
 
 .navbar {
@@ -23,7 +26,7 @@ body {
 }
 
 p.introParagraph {
-  padding: 2rem 10rem;
+  padding: 2rem 11rem;
 }
 
 .btn {
@@ -48,10 +51,15 @@ p.introParagraph {
 .productive-img {
   float: left;
   width: 40%;
-  margin: 0 2rem;
+  margin: 0 5rem;
+  margin-left: 10rem;
 }
 
 .text2 {
   padding-top: 6rem;
   text-align: left;
+}
+
+.p-text {
+  padding: 0 23rem;
 }
